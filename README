@@ -1,0 +1,46 @@
+# 🎬 Movie Recommendation System
+
+## 📌 Project Description
+This is a Content-Based Movie Recommendation System built using Machine Learning and NLP techniques. It recommends movies based on similarity of content such as genres, cast, crew, keywords, and overview.
+
+---
+
+## 🚀 Features
+- Select a movie from dropdown
+- Get top 5 similar movie recommendations
+- Fast and optimized recommendation system
+- Simple and interactive web interface using Streamlit
+
+---
+
+## 🧠 How It Works
+1. Movie dataset is loaded (movies.csv and credits.csv)
+2. Data is merged and cleaned
+3. Important features like genres, cast, crew, keywords are extracted
+4. A combined text feature called "tags" is created
+5. TF-IDF Vectorization converts text into numerical vectors
+6. Cosine Similarity is used to find similar movies
+7. Top 5 similar movies are recommended
+
+---
+
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- NLP (TF-IDF Vectorizer)
+- Cosine Similarity
+- Streamlit
+
+---
+
+
+---
+
+## ▶️ How to Run Project
+
+### Step 1: Install dependencies
+```bash
+pip install -r requirements.txt
+
+streamlit run app.py
